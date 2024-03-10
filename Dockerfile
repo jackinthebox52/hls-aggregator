@@ -34,5 +34,5 @@ ENV DISPLAY=:99
 # Move all files from current directory (excluding those specified in .dockerignore)
 COPY . /app
 
-# Start X server and Firefox
+# Start X
 CMD Xvfb :99 -screen 0 1024x768x16

@@ -9,124 +9,254 @@ ffmpeg version n6.1.1 Copyright (c) 2000-2023 the FFmpeg developers
   libswscale      7.  5.100 /  7.  5.100
   libswresample   4. 12.100 /  4. 12.100
   libpostproc    57.  3.100 / 57.  3.100
-[https @ 0x571f6a9e3900] No trailing CRLF found in HTTP header. Adding it.
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[hls @ 0x571f6a9e3240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[hls @ 0x571f6a9e3240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1760326_220.ts' for reading
-[hls @ 0x571f6a9e3240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1768300_221.ts' for reading
+[https @ 0x63357307d900] No trailing CRLF found in HTTP header. Adding it.
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x63357307d240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x63357307d240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2649047_331.ts' for reading
+[hls @ 0x63357307d240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2656554_332.ts' for reading
 Input #0, hls, from 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/playlist.m3u8':
-  Duration: N/A, start: 1760.245000, bitrate: N/A
+  Duration: N/A, start: 2648.949000, bitrate: N/A
   Program 0 
     Metadata:
-      variant_bitrate : 2628102
+      variant_bitrate : 2529013
   Stream #0:0: Video: h264 (Main) ([27][0][0][0] / 0x001B), yuv420p, 960x540 [SAR 1:1 DAR 16:9], Closed Captions, 29.97 fps, 29.97 tbr, 90k tbn
     Metadata:
-      variant_bitrate : 2628102
+      variant_bitrate : 2529013
   Stream #0:1: Audio: aac (LC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
     Metadata:
-      variant_bitrate : 2628102
+      variant_bitrate : 2529013
 Output #0, hls, to 'hls/embed-ufc.m3u8':
   Metadata:
     encoder         : Lavf60.16.100
   Stream #0:0: Video: h264 (Main) ([27][0][0][0] / 0x001B), yuv420p, 960x540 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 90k tbn
     Metadata:
-      variant_bitrate : 2628102
+      variant_bitrate : 2529013
   Stream #0:1: Audio: aac (LC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
     Metadata:
-      variant_bitrate : 2628102
+      variant_bitrate : 2529013
 Stream mapping:
   Stream #0:0 -> #0:0 (copy)
   Stream #0:1 -> #0:1 (copy)
 Press [q] to stop, [?] for help
-size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1777476_222.ts' for reading
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc0.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-size=N/A time=00:00:16.51 bitrate=N/A speed=32.8x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc1.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1785818_223.ts' for reading
-size=N/A time=00:00:25.47 bitrate=N/A speed=2.98x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc2.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1793325_224.ts' for reading
-[https @ 0x571f6aecbac0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1800833_225.ts' for reading
-size=N/A time=00:00:32.98 bitrate=N/A speed=1.14x    [hls @ 0x571f6aa4e800] Non-monotonic DTS in output stream 0:1; previous: 2970240, current: 2968290; changing to 2970241. This may result in incorrect timestamps in the output file.
-[hls @ 0x571f6aa4e800] Non-monotonic DTS in output stream 0:1; previous: 2970241, current: 2970210; changing to 2970242. This may result in incorrect timestamps in the output file.
-[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1808340_226.ts' for reading
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc3.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc4.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1818350_227.ts' for reading
-size=N/A time=00:00:58.03 bitrate=N/A speed=1.49x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc5.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1825858_228.ts' for reading
-[https @ 0x571f6aecbac0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1833365_229.ts' for reading
-size=N/A time=00:01:05.54 bitrate=N/A speed=1.41x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc6.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6aecbac0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1840873_230.ts' for reading
-size=N/A time=00:01:20.56 bitrate=N/A speed=1.49x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc7.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6aecbac0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1848280_231.ts' for reading
-size=N/A time=00:01:27.95 bitrate=N/A speed= 1.2x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc8.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6aecbac0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1858390_232.ts' for reading
-[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1865898_233.ts' for reading
-size=N/A time=00:01:38.04 bitrate=N/A speed=1.18x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc9.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc10.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1873405_234.ts' for reading
-size=N/A time=00:01:53.09 bitrate=N/A speed=1.24x    [https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1880913_235.ts' for reading
-size=N/A time=00:02:00.59 bitrate=N/A speed=1.22x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc11.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1888086_236.ts' for reading
-size=N/A time=00:02:07.74 bitrate=N/A speed=1.21x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc12.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1897996_237.ts' for reading
-size=N/A time=00:02:17.68 bitrate=N/A speed=1.19x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc13.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1905938_238.ts' for reading
-[https @ 0x571f6aecbac0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1913445_239.ts' for reading
-size=N/A time=00:02:25.62 bitrate=N/A speed=1.17x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc14.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6aecbac0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1920953_240.ts' for reading
-size=N/A time=00:02:40.64 bitrate=N/A speed=1.22x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc15.ts' for writing
-[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
-[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
-[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [https @ 0x6335731df3c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2664062_333.ts' for reading
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc0.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc1.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335731df3c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2674072_334.ts' for reading
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2681579_335.ts' for reading
+size=N/A time=00:00:25.04 bitrate=N/A speed=1.63x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc2.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[hls @ 0x6335735b1b40] Non-monotonic DTS in output stream 0:1; previous: 2929920, current: 2927970; changing to 2929921. This may result in incorrect timestamps in the output file.
+[hls @ 0x6335735b1b40] Non-monotonic DTS in output stream 0:1; previous: 2929921, current: 2929890; changing to 2929922. This may result in incorrect timestamps in the output file.
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2689087_336.ts' for reading
+size=N/A time=00:00:40.07 bitrate=N/A speed=1.74x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc3.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2696594_337.ts' for reading
+size=N/A time=00:00:47.55 bitrate=N/A speed=1.56x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc4.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2704102_338.ts' for reading
+size=N/A time=00:00:55.08 bitrate=N/A speed=1.44x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc5.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2714112_339.ts' for reading
+size=N/A time=00:01:05.09 bitrate=N/A speed=1.35x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc6.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2721619_340.ts' for reading
+size=N/A time=00:01:12.59 bitrate=N/A speed=1.18x    [https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2729127_341.ts' for reading
+size=N/A time=00:01:20.11 bitrate=N/A speed=1.16x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc7.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2736634_342.ts' for reading
+size=N/A time=00:01:27.61 bitrate=N/A speed=1.14x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc8.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2745209_343.ts' for reading
+[https @ 0x6335731df3c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2752150_344.ts' for reading
+size=N/A time=00:01:36.19 bitrate=N/A speed=1.12x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc9.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335731df3c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2761326_345.ts' for reading
+size=N/A time=00:01:52.27 bitrate=N/A speed=1.03x    [hls @ 0x6335735b1b40] Non-monotonic DTS in output stream 0:1; previous: 10106880, current: 10104930; changing to 10106881. This may result in incorrect timestamps in the output file.
+[hls @ 0x6335735b1b40] Non-monotonic DTS in output stream 0:1; previous: 10106881, current: 10106850; changing to 10106882. This may result in incorrect timestamps in the output file.
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc10.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335731df3c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2770201_346.ts' for reading
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2777709_347.ts' for reading
+size=N/A time=00:02:01.15 bitrate=N/A speed=1.03x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc11.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x6335731df3c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2785216_348.ts' for reading
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc12.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc13.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335731df3c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2792724_349.ts' for reading
+size=N/A time=00:02:23.70 bitrate=N/A speed=1.14x    [https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335731df3c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2800231_350.ts' for reading
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2810241_351.ts' for reading
+size=N/A time=00:02:31.21 bitrate=N/A speed=1.04x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc14.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc15.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2817749_352.ts' for reading
+size=N/A time=00:02:48.72 bitrate=N/A speed=1.11x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc16.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2825256_353.ts' for reading
+[hls @ 0x6335735b1b40] Non-monotonic DTS in output stream 0:1; previous: 15861120, current: 15859170; changing to 15861121. This may result in incorrect timestamps in the output file.
+[hls @ 0x6335735b1b40] Non-monotonic DTS in output stream 0:1; previous: 15861121, current: 15861090; changing to 15861122. This may result in incorrect timestamps in the output file.
+size=N/A time=00:02:56.23 bitrate=N/A speed= 1.1x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc17.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2832764_354.ts' for reading
+[https @ 0x6335731df3c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2840271_355.ts' for reading
+size=N/A time=00:03:03.74 bitrate=N/A speed=1.02x    [https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2850281_356.ts' for reading
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc18.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+size=N/A time=00:03:18.74 bitrate=N/A speed= 1.1x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc19.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2857789_357.ts' for reading
+size=N/A time=00:03:28.77 bitrate=N/A speed=1.11x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc20.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2865296_358.ts' for reading
+[https @ 0x6335731df3c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2872804_359.ts' for reading
+size=N/A time=00:03:36.25 bitrate=N/A speed=1.03x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc21.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335731df3c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2880311_360.ts' for reading
+size=N/A time=00:03:51.29 bitrate=N/A speed=1.07x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc22.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335731df3c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2890321_361.ts' for reading
+size=N/A time=00:04:01.30 bitrate=N/A speed=1.06x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc23.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335731df3c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2897829_362.ts' for reading
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2905336_363.ts' for reading
+size=N/A time=00:04:08.81 bitrate=N/A speed=1.06x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc24.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc25.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x633573571540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x6335733df880] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2912844_364.ts' for reading
+size=N/A time=00:04:23.82 bitrate=N/A speed=1.09x    [hls @ 0x63357307d240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x779dc0046580] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x779dc0046580] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x63357307d240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2920351_365.ts' for reading
+size=N/A time=00:04:31.30 bitrate=N/A speed=1.04x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc26.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+size=N/A time=00:04:40.32 bitrate=N/A speed=1.07x    [https @ 0x779dc0046580] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x779dc0046580] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x779dc00a1580] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2930361_366.ts' for reading
+[https @ 0x6335731df3c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2937869_367.ts' for reading
+size=N/A time=00:04:41.34 bitrate=N/A speed=1.02x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc27.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x779dc00a1580] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2945376_368.ts' for reading
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc28.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+size=N/A time=00:04:57.69 bitrate=N/A speed=1.07x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc29.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x779dc0046580] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x779dc00a1580] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2952884_369.ts' for reading
+[https @ 0x779dc011cf00] HTTP error 404 Not Found
+[hls @ 0x63357307d240] keepalive request failed for 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2952884_369.ts' with error: 'Server returned 404 Not Found' when opening url, retrying with new connection
+[hls @ 0x63357307d240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2952884_369.ts' for reading
+[https @ 0x779dc011cf00] HTTP error 404 Not Found
+[hls @ 0x63357307d240] Failed to open segment 369 of playlist 0
+[hls @ 0x63357307d240] Segment 369 of playlist 0 failed too many times, skipping
+[https @ 0x779dc0046580] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x63357307d240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2960391_370.ts' for reading
+size=N/A time=00:05:11.36 bitrate=N/A speed=1.07x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc30.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x779dc0046580] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x779dc008d780] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2970401_371.ts' for reading
+[https @ 0x779dc0058100] HTTP error 404 Not Found
+[hls @ 0x63357307d240] keepalive request failed for 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2970401_371.ts' with error: 'Server returned 404 Not Found' when opening url, retrying with new connection
+[hls @ 0x63357307d240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2970401_371.ts' for reading
+[https @ 0x779dc011cf00] HTTP error 404 Not Found
+[hls @ 0x63357307d240] Failed to open segment 371 of playlist 0
+[hls @ 0x63357307d240] Segment 371 of playlist 0 failed too many times, skipping
+[https @ 0x779dc0046580] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[https @ 0x779dc0006d40] HTTP error 404 Not Found
+[hls @ 0x63357307d240] keepalive request failed for 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' with error: 'Server returned 404 Not Found' when parsing playlist
+[hls @ 0x63357307d240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[https @ 0x779dc0076680] HTTP error 404 Not Found
+[hls @ 0x63357307d240] Failed to reload playlist 0
+[hls @ 0x63357307d240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x779dc008d780] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x63357307d240] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x63357307d240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2977909_372.ts' for reading
+[https @ 0x779dc011d500] HTTP error 404 Not Found
+[hls @ 0x63357307d240] Failed to open segment 372 of playlist 0
+[hls @ 0x63357307d240] Segment 372 of playlist 0 failed too many times, skipping
+[hls @ 0x63357307d240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_2985416_373.ts' for reading
+[https @ 0x779dc009f340] HTTP error 404 Not Found
+[hls @ 0x63357307d240] Failed to open segment 373 of playlist 0
+[hls @ 0x63357307d240] Segment 373 of playlist 0 failed too many times, skipping
+size=N/A time=00:05:21.35 bitrate=N/A speed=1.04x    [hls @ 0x6335735b1b40] Opening 'hls/embed-ufc31.ts' for writing
+[hls @ 0x6335735b1b40] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[out#0/hls @ 0x6335733ace40] video:92522kB audio:5036kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+size=N/A time=00:05:21.35 bitrate=N/A speed=1.02x    

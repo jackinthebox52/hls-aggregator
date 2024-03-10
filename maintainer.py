@@ -41,6 +41,7 @@ def maintain(hls: str, event_url: str):
             ffmpeg_failed = False
         else:
             failed_amount = 0
+            failed_time = None
         if os.path.exists('etc/error.log'):
             lines = get_last_lines('etc/error.log', 20)  # Get the last 20 lines of the error.log file
             for line in lines:
