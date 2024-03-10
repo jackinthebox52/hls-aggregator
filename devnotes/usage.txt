@@ -1,0 +1,1 @@
+Srapers should return an hls stream index url with optional Origin parameter, or exit code to specify failure

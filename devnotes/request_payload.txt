@@ -1,0 +1,6 @@
+pid=5&gt=ESPN&gc=NFL&v=espnhd%7Eespnsd
+
+pid	"5"
+gt	"ESPN"
+gc	"NFL"
+v	"espnhd~espnsd"

@@ -1,0 +1,112 @@
+ffmpeg version n6.1.1 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13.2.1 (GCC) 20230801
+  configuration: --prefix=/usr --disable-debug --disable-static --disable-stripping --enable-amf --enable-avisynth --enable-cuda-llvm --enable-lto --enable-fontconfig --enable-frei0r --enable-gmp --enable-gnutls --enable-gpl --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libdav1d --enable-libdrm --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libharfbuzz --enable-libiec61883 --enable-libjack --enable-libjxl --enable-libmodplug --enable-libmp3lame --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libplacebo --enable-libpulse --enable-librav1e --enable-librsvg --enable-librubberband --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpl --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxcb --enable-libxml2 --enable-libxvid --enable-libzimg --enable-nvdec --enable-nvenc --enable-opencl --enable-opengl --enable-shared --enable-vapoursynth --enable-version3 --enable-vulkan
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[https @ 0x571f6a9e3900] No trailing CRLF found in HTTP header. Adding it.
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x571f6a9e3240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x571f6a9e3240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1760326_220.ts' for reading
+[hls @ 0x571f6a9e3240] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1768300_221.ts' for reading
+Input #0, hls, from 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/playlist.m3u8':
+  Duration: N/A, start: 1760.245000, bitrate: N/A
+  Program 0 
+    Metadata:
+      variant_bitrate : 2628102
+  Stream #0:0: Video: h264 (Main) ([27][0][0][0] / 0x001B), yuv420p, 960x540 [SAR 1:1 DAR 16:9], Closed Captions, 29.97 fps, 29.97 tbr, 90k tbn
+    Metadata:
+      variant_bitrate : 2628102
+  Stream #0:1: Audio: aac (LC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 2628102
+Output #0, hls, to 'hls/embed-ufc.m3u8':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (Main) ([27][0][0][0] / 0x001B), yuv420p, 960x540 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 90k tbn
+    Metadata:
+      variant_bitrate : 2628102
+  Stream #0:1: Audio: aac (LC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 2628102
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1777476_222.ts' for reading
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc0.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+size=N/A time=00:00:16.51 bitrate=N/A speed=32.8x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc1.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1785818_223.ts' for reading
+size=N/A time=00:00:25.47 bitrate=N/A speed=2.98x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc2.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1793325_224.ts' for reading
+[https @ 0x571f6aecbac0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1800833_225.ts' for reading
+size=N/A time=00:00:32.98 bitrate=N/A speed=1.14x    [hls @ 0x571f6aa4e800] Non-monotonic DTS in output stream 0:1; previous: 2970240, current: 2968290; changing to 2970241. This may result in incorrect timestamps in the output file.
+[hls @ 0x571f6aa4e800] Non-monotonic DTS in output stream 0:1; previous: 2970241, current: 2970210; changing to 2970242. This may result in incorrect timestamps in the output file.
+[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1808340_226.ts' for reading
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc3.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc4.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1818350_227.ts' for reading
+size=N/A time=00:00:58.03 bitrate=N/A speed=1.49x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc5.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1825858_228.ts' for reading
+[https @ 0x571f6aecbac0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1833365_229.ts' for reading
+size=N/A time=00:01:05.54 bitrate=N/A speed=1.41x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc6.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6aecbac0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1840873_230.ts' for reading
+size=N/A time=00:01:20.56 bitrate=N/A speed=1.49x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc7.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6aecbac0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1848280_231.ts' for reading
+size=N/A time=00:01:27.95 bitrate=N/A speed= 1.2x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc8.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6aecbac0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1858390_232.ts' for reading
+[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1865898_233.ts' for reading
+size=N/A time=00:01:38.04 bitrate=N/A speed=1.18x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc9.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc10.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1873405_234.ts' for reading
+size=N/A time=00:01:53.09 bitrate=N/A speed=1.24x    [https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1880913_235.ts' for reading
+size=N/A time=00:02:00.59 bitrate=N/A speed=1.22x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc11.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1888086_236.ts' for reading
+size=N/A time=00:02:07.74 bitrate=N/A speed=1.21x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc12.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing

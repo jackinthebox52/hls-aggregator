@@ -1,0 +1,18 @@
+https://www.niaomea.me/sd0embed/NFL
+
+POST /sd0embed/NFL HTTP/2
+Host: www.niaomea.me
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 38
+Referer: https://embedstreams.me/nfl-news/espn-stream-1
+Origin: https://embedstreams.me
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: cross-site
+Connection: keep-alive
+Cookie: tamedy=4; _pshflg=~
