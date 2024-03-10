@@ -110,3 +110,23 @@ size=N/A time=00:02:00.59 bitrate=N/A speed=1.22x    [hls @ 0x571f6aa4e800] Ope
 [https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1888086_236.ts' for reading
 size=N/A time=00:02:07.74 bitrate=N/A speed=1.21x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc12.ts' for writing
 [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1897996_237.ts' for reading
+size=N/A time=00:02:17.68 bitrate=N/A speed=1.19x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc13.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6ab453c0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1905938_238.ts' for reading
+[https @ 0x571f6aecbac0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1913445_239.ts' for reading
+size=N/A time=00:02:25.62 bitrate=N/A speed=1.17x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc14.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6aecbac0] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/l_1920953_240.ts' for reading
+size=N/A time=00:02:40.64 bitrate=N/A speed=1.22x    [hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc15.ts' for writing
+[hls @ 0x571f6aa4e800] Opening 'hls/embed-ufc.m3u8.tmp' for writing
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
+[https @ 0x571f6aed7540] Opening 'https://jowhul71oz.azureedge.net/live/65b9e03adcd78/chunks.m3u8' for reading
+[hls @ 0x571f6a9e3240] Skip ('#EXT-X-VERSION:3')
